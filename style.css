@@ -12,7 +12,7 @@ html {
 	scroll-behavior: smooth;
 }
 body {
-	background: #FFF;
+	background: #90EE90;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -31,7 +31,7 @@ nav {
 	display: flex;
 	width: 100%;
 	z-index: 1000;
-	background: #fff;
+	background: #ffff66;
 	justify-content: space-around;
 	transition: 1.5s;
 	align-items: center;
@@ -87,7 +87,7 @@ nav ul li a:hover {
 	border: 2px solid #DF2771;
 	border-radius: 20px;
 	text-decoration: none;
-	
+
 	transition: .5s;
 	background-color: #DF2771;
 	color: #fff;
@@ -282,7 +282,7 @@ a, button {
 }
 .smbox .data {
 	font-size: 80px;
-	color: #FA6146;	
+	color: #FA6146;
 }
 .smbox .det {
 	font-size: 20px;
@@ -602,7 +602,7 @@ a, button {
 /*Contact Us Section*/
 .csec {
 	background: linear-gradient(to right, #FA4B37, #DF2771);
-	background-attachment: fixed; 
+	background-attachment: fixed;
 	position: absolute;
 	width: 100%;
 	height: 250px;
@@ -665,7 +665,7 @@ form textarea {
 	padding: 15px;
 }
 #csubmit {
-	margin-top: 20px; 
+	margin-top: 20px;
 	background: linear-gradient(to right, #FA4B37, #DF2771);
 	border-radius: 5px;
 	border-style: none;
@@ -830,7 +830,7 @@ form textarea {
 	height: 100px;
 }
 .feed #csubmit {
-	margin-top: 25px; 
+	margin-top: 25px;
 	background: linear-gradient(to right, #FA4B37, #DF2771);
 	border-radius: 5px;
 	border-style: none;
@@ -855,7 +855,7 @@ form textarea {
 footer {
 	color: #E5E8EF;
 	background: #000D;
-	padding: 50px 0; 
+	padding: 50px 0;
 }
 footer .footer-container {
 	max-width: 1300px;
@@ -921,7 +921,7 @@ footer .btn {
 	border-radius: 5px;
 	margin-left: 20px;
 	cursor: pointer;
-	transition: opacity .3s linear;	
+	transition: opacity .3s linear;
 }
 footer .btn:hover {
 	opacity: .7;
@@ -944,10 +944,7 @@ footer .btn:hover {
 		display: flex;
 		justify-content: center;
 	}
-	.logo {
-		transition: 1s;
-		margin-left: 30%;
-	}
+
 	nav ul, .srch, .get-started{
 		display: none;
 	}
@@ -973,7 +970,7 @@ footer .btn:hover {
 	.title {
 		margin-top: 160px;
 	}
-	
+
 }
 @media screen and (max-width: 700px) {
 	footer .btn{
@@ -988,7 +985,7 @@ footer .btn:hover {
 	}
 }
 
-@media screen and (max-width: 1000px) {	
+@media screen and (max-width: 1000px) {
 	.feedbox form input, .feedbox form .fname{
 		width: 100%;
 	}
